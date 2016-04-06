@@ -1,0 +1,12 @@
+default_owner: owner
+review_label: label
+bot_name: bot
+usage_bot_name: usage_bot
+icon_emoji: ":emoji:"
+usage_icon_emoji: ":usage_emoji:"
+error_icon_emoji: ":error_emoji:"
+max_suggestions: "5"
+secret_key_base: tokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentoken
+slack_api_token: token
+github_api_token: github_token
+github_webhook_secret: github_webhook_token

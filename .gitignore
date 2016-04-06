@@ -1,0 +1,26 @@
+/.bundle
+
+/log/*.log
+/tmp
+
+/coverage
+
+public/tmp
+public/uploads
+public/javascripts/translations.js
+
+config/secrets.yml
+
+.ruby-gemset
+.rbenv-gemsets
+.rbenv-version
+.powenv
+.env
+
+logfile
+
+local.local.*
+.DS_Store
+
+# Ignore application configuration
+/config/application.yml

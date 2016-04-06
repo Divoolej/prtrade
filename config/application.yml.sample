@@ -1,0 +1,14 @@
+default_owner:
+review_label:
+bot_name:
+usage_bot_name:
+icon_emoji:
+usage_icon_emoji:
+error_icon_emoji:
+max_suggestions:
+secret_key_base:
+slack_api_token:
+rollbar_token:
+newrelic_token:
+github_api_token:
+github_webhook_secret:

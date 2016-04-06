@@ -1,0 +1,17 @@
+en:
+  application_error: There was an error in the application.
+  cache:
+    success: "ok"
+    unsupported_action: "The webhook action %{action} is not supported"
+  shared:
+    no_access: You don't have access to this resource.
+    unprocessable_entity: The API does not support this trigger word.
+  pull_requests:
+    all_pull_requests_for_project: "Tradable pull requests in project *_%{project_name}_*:"
+    suggested_pull_requests: "Suggested pull requests for %{traded_pull_request}:"
+    errors:
+      invalid_request: "*prtrade* _pull_request_url_\n*prtrade* _project_name_ *[* _pull_request_number_ *]*"
+      invalid_url: "Please provide a correct pull request URL"
+      missing_config: "Application is missing a config entry: %{config_entry}"
+      missing_pull_request: "Couldn't find pull request #%{pull_request_number} in the %{owner}/%{project} repository."
+      no_pull_requests_for_project: "There are no tradable pull requests in the *%{owner}/%{project}* repository."

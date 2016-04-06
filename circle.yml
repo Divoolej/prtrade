@@ -1,0 +1,13 @@
+deployment:
+  master:
+    branch: master
+    commands:
+      - bundle exec cap staging deploy
+  production:
+    branch: production
+    commands:
+      - bundle exec cap production deploy:
+          timeout: 720
+test:
+  pre:
+    - cp config/application.yml.ci config/application.yml

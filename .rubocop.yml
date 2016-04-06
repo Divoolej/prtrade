@@ -1,0 +1,32 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'spec/responses/**/*'
+    - 'Gemfile'
+    - 'Guardfile'
+    - 'Rakefile'
+  TargetRubyVersion: 2.3
+Documentation:
+  Enabled: false
+Rails/ActionFilter:
+  Enabled: false
+Style/DotPosition:
+  EnforcedStyle: leading
+SignalException:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+Style/PredicateName:
+  Exclude:
+    - 'app/serializers/**/*'
+Metrics/LineLength:
+  Max: 120
