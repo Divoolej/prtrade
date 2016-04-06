@@ -39,7 +39,7 @@ Example of usage:
 ###### Fill the necessary values in ```config/application.yml```
 - ```secret_key_base``` - run ```rake secret``` and paste it here.
 - ```github_api_token``` - personal token for Github API
-- ```github_webhooks_secret``` - it has to match the secret for the webhook on Github.
+- ```github_webhook_secret``` - it has to match the secret for the webhook on Github.
 - ```slack_api_token``` - it's the token from the Slack webhook.
 - ```default_owner``` - Github organization that is the default owner of traded repositories
 - ```review_label``` - Only pull requests labeled with this label will be fetched by the application as ready for review.
