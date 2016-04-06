@@ -1,0 +1,53 @@
+{
+  "name": "PR Trade",
+  "description": "A Slack bot for internal code review of pull requests",
+  "repository": "https://github.com/netguru/prtrade",
+  "logo": "https://pbs.twimg.com/profile_images/3395771474/6e90fe1de49c40413605e3a4c4fb7174_400x400.png",
+  "keywords": ["ruby", "rails"],
+  "env": {
+    "secret_key_base": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret",
+    },
+    "default_owner": {
+      "description": "Github organization that is the default owner of traded repositories",
+    },
+    "review_label": {
+      "description": "Only pull requests labeled with this label will be fetched by the application as ready for review",
+      "value": "Ready for Review",
+    },
+    "bot_name": {
+      "description": "The name of the Slack bot that will post the suggestions for trade",
+      "value": "PR Trade",
+    },
+    "usage_bot_name": {
+      "description": "The name of the Slack bot that will post the correct usage of the application",
+      "value": "PR Trade Usage",
+    },
+    "icon_emoji": {
+      "description": "Slack bot's avatar will be the emoji specified here",
+      "value": ":arrows_clockwise:",
+    },
+    "usage_icon_emoji": {
+      "description": "Slack bot's avatar will change to the one specified here when showing the correct usage of the application",
+      "value": ":point_right::skin-tone-2:",
+    },
+    "error_icon_emoji": {
+      "description": "Slack bot's avatar will change to the one specified here when an error will occur",
+      "value": ":exclamation:",
+    },
+    "max_suggestions": {
+      "description": "The maximum number of suggestions that will be displayed",
+      "value": "5",
+    },
+    "github_webhook_secret": {
+      "description": "This value has to match the secret for the webhook on Github.",
+    },
+    "slack_api_token": {
+      "description": "The token from the Slack webhook.",
+    },
+    "github_api_token": {
+      "description": "Personal token for Github API",
+    },
+  },
+}
