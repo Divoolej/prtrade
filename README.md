@@ -1,5 +1,6 @@
 # PR Trade
 [![](http://img.shields.io/codeclimate/github/netguru/prtrade.svg?style=flat-square)](https://codeclimate.com/github/netguru/prtrade) [![](http://img.shields.io/codeclimate/coverage/github/netguru/prtrade.svg?style=flat-square)](https://codeclimate.com/github/netguru/prtrade) [![](http://img.shields.io/gemnasium/netguru/prtrade.svg?style=flat-square)](https://gemnasium.com/netguru/prtrade)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ============
 
 PR Trade is a Slack integration for company's internal code review process. It allows developers to review each other's work by "trading" it. For a given pull request, the application will fetch all pull requests in the organization that are labeled as ready for review (the label itself can be customized) and display trading suggestions based on the file types and amount of changes in the traded pull request.
